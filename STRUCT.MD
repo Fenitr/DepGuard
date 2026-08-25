@@ -1,6 +1,6 @@
-sast-cli/
+depguard/
 ├── bin/
-│   └── sast.js                   # Point d'entrée de l'exécutable CLI (#!/usr/bin/env node)
+│   └── depguard.js               # Point d'entrée de l'exécutable CLI (#!/usr/bin/env node)
 ├── src/
 │   ├── index.ts                  # Configuration des commandes CLI (Commander / Yargs)
 │   ├── config/
